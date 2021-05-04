@@ -1,0 +1,37 @@
+main {
+	background-image: url(images/declaration2.jpg);
+	background-repeat: round;
+	background-attachment: fixed;
+}
+
+.page {
+	background-image: url(images/background.png);
+	opacity: 0.95;
+}
+
+.page::before {
+	border-radius: 10px;
+}
+
+.avatar {
+	width: 100%;
+	height: auto;
+}
+
+.avatar-container {
+	display: flex;
+	flex-flow: row nowrap;
+	align-items: center;
+	justify-content: center;
+	height: 100%;
+}
+
+.secondary-images {
+	width: 100%;
+	height: auto;
+}
+
+.fa-twitter-square,
+.fa-instagram-square {
+	font-size: 16px;
+}
