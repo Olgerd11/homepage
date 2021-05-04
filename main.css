@@ -2,6 +2,7 @@ main {
 	background-image: url(images/declaration2.jpg);
 	background-repeat: round;
 	background-attachment: fixed;
+	font-size: 16px;
 }
 
 .page {
@@ -34,4 +35,13 @@ main {
 .fa-twitter-square,
 .fa-instagram-square {
 	font-size: 16px;
+}
+
+small {
+	font-weight: bold;
+}
+
+.quotes {
+	font-weight: 400;
+	font-style: italic;
 }
